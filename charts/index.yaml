@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  k10:
+  - apiVersion: v2
+    appVersion: v0.1.0-alpha
+    created: "2023-10-04T11:35:18.151263338+05:30"
+    dependencies:
+    - name: grafana
+      repository: file://./dependency_chart/grafana
+      version: 6.59.4
+    - name: prometheus
+      repository: file://./dependency_chart/prometheus
+      version: 23.3.0
+    description: Kasten’s K10 Data Management Platform
+    digest: 64dd8aea88f405d44d726c14660401994490f1f34d96f964ec646c4886411e57
+    home: https://kasten.io/
+    icon: https://docs.kasten.io/_static/kasten.png
+    maintainers:
+    - email: contact@kasten.io
+      name: kastenIO
+    name: k10
+    urls:
+    - k10-v0.1.0-alpha.tgz
+    version: v0.1.0-alpha
+generated: "2023-10-04T11:35:18.135018049+05:30"
